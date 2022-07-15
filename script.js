@@ -52,6 +52,10 @@ function verificar(element){
         window.alert(`Lado ${quadro[6].innerHTML} venceu`)
         location.reload();
     }
+    else if(cont==9){
+        window.alert('Empate')
+        location.reload();
+    } 
     else {return false}
 }
 
